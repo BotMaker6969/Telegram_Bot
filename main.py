@@ -1,6 +1,6 @@
 import telebot
 
-API_KEY = ('2042205018:AAF7MN1zNTCmqpdMXY9t2tEpYNXHt0JoD3I')
+bot = telebot.Telebot("2042205018:AAF7MN1zNTCmqpdMXY9t2tEpYNXHt0JoD3I")
 
 @bot.message_handler(commands=['start'])
 def greet(message):
