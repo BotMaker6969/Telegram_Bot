@@ -4,6 +4,11 @@ import telebot
 bot = telebot.TeleBot("2042205018:AAF7MN1zNTCmqpdMXY9t2tEpYNXHt0JoD3I")
 
 
+@bot.message_handler(commands=['kickme'])
+def greet(message):
+    bot.reply_to(
+        message, '''Leave manually u Retarded attention seeker''')
+
 @bot.message_handler(commands=['start'])
 def greet(message):
     bot.reply_to(
