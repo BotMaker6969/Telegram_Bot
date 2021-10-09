@@ -110,8 +110,7 @@ Base 3.2 -> t.me/redmi7acommunity/149082
 def greet(message):
     bot.reply_to(message, '''
 COMMANDS:- 
--> r7a (Redmi7A)
-  put slash/ at start.
+-> /r7a (Redmi7A)
 ''')
 
 
@@ -123,13 +122,13 @@ Hello I am Guider Bomt. Rose is trash so they added me! lul 😏
   ''')
 
 
-@bot.message_handler(commands=['guides'])
+@bot.message_handler(commands=['guide'])
 def greet(message):
     bot.reply_to(
         message, '''
--> do guiderom if installing rom...
+-> do /guiderom if installing rom...
       
--> do gsi_tutorial if having trouble installing gsi...
+-> do /gsi_tutorial if having trouble installing gsi...
   
  put slash/ at start. 
 ''')
@@ -174,18 +173,17 @@ def greet(message):
     bot.reply_to(
         message, '''
 COMMANDS:- 
--> dotos
--> nusantara
--> dotfe
--> gapps
--> kernel
--> gaming
--> allroms
--> gsi_guide
--> guiderom
--> recoverypine
--> gsi_tutorial    
-# put slash/ at start.
+-> /dotos
+-> /nusantara
+-> /dotfe
+-> /gapps
+-> /kernel
+-> /gaming
+-> /allroms
+-> /gsi_guide
+-> /guiderom
+-> /recoverypine
+-> /gsi_tutorial
 ''')
 
 
@@ -193,12 +191,10 @@ COMMANDS:-
 def greet(message):
     bot.reply_to(
         message, '''
-1:   dotosguide 
-2:   dotosvanilla
-3:   dotosgapps 
-4:   gapps11
-      
- # put slash/ at start.
+1:   /dotosguide 
+2:   /dotosvanilla
+3:   /dotosgapps 
+4:   /gapps11
   ''')
 
 
@@ -295,7 +291,7 @@ def greet(message):
 def greet(message):
     bot.reply_to(
         message,
-        "https://downloads.droidontime.com/dot11/pine/vanilla/dotOS-R-v5.1.3-pine-OFFICIAL-20210810-0053.zip"
+        "https://t.me/hsxdiscussion/3887"
     )
 
 
@@ -303,7 +299,7 @@ def greet(message):
 def greet(message):
     bot.reply_to(
         message,
-        "https://downloads.droidontime.com/dot11/pine/gapps/dotOS-R-v5.1.3-pine-GAPPS-20210810-0151.zip"
+        "https://t.me/hsxdiscussion/3888"
     )
 
 
@@ -322,13 +318,15 @@ def greet(message):
     bot.reply_to(
         message, '''
       64bit TWRP:---
-https://androidfilehost.com/?fid=14943124697586357172
+androidfilehost.com/?fid=14943124697586357172
       
       64bit PBRP:---
-https://pitchblackrecovery.com/pine  
+pitchblackrecovery.com/pine  
   ''')
 
 
+    
+    
 @bot.message_handler(commands=['nusantara'])
 def greet(message):
     bot.reply_to(
@@ -487,12 +485,9 @@ t.me/Redmi7AUpdates/222 --> ZeusOS
 def greet(message):
     bot.reply_to(
         message, '''
-HavocOS--->
-bit.ly/3Dswnzi
-  
-/guiderom if having problem
-Just normal install
-  
+HavocOS V4.9 by @atharv2951
+
+Coming Soon!
   ''')
 
 
