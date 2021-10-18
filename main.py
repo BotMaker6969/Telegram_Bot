@@ -49,7 +49,8 @@ def greet(message):
     bot.reply_to(
         message, '''
 GSI for R7A - Nusantara--
-link -- bit.ly/3k0nNjO
+    link -- bit.ly/3k0nNjO
+    
 if don't know how to flash /gsi_tutorial
   ''')
 
@@ -59,11 +60,13 @@ def greet(message):
     bot.reply_to(
         message, '''
 First download GSI ( /gsi_roms ) | BASE( /base ) | PERMISSIVER( /permissiver ) | GAPPS( /gapps )
+
 -- Then place them in an SDCard or PenDrive cuz we need it and 'Extract' the gsi you downloaded.
 -- After That Go to your recovery and wipe (Dalvik, Cache, System and Data)
 -- Then go to install and flash the base then the GSI.img and Permissiver
 -- Then go to 'wipe' section and select 'system' and click repair < Resize and swipe.
 -- Then flash the Gapps ( /gapps )
+
 Reboot and Fire!
   ''')
 
@@ -151,7 +154,7 @@ def greet(message):
 def greet(message):
     bot.reply_to(
         message, '''
-https://t.me/xr7ap/67
+    t.me/xr7ap/67
   
 Currently the best gaming rom.
 Bug:- While in a call or meeting u cannot play videos.
@@ -163,13 +166,13 @@ def greet(message):
     bot.reply_to(
         message, '''
 Notes:---
-- Want gapps - /gapps
-- Want all roms for r7a - /allroms
-- Want kernel for your device - /kernel
-- Want to improve gaming - /gaming
-- Don't know how to flash - /guiderom
-- Want GSI's - /gsi
-- Guide to flash gsi? - /gsi_tutorial     
+- Want gapps -------------------/gapps
+- Want all roms for r7a ------- /allroms
+- Want kernel for your device --/kernel
+- Want to improve gaming -------/gaming
+- Don't know how to flash ------/guiderom
+- Want GSI's -------------------/gsi
+- Guide to flash gsi? ----------/gsi_tutorial     
   ''')
 
 
@@ -223,7 +226,65 @@ def greet(message):
 5: /silontkernel
 ''')
 
+@bot.message_handler(commands=['chaeyoungkernel'])
+def greet(message):
+    bot.reply_to(
+        message, '''
+   t.me/Redmi7AUpdates/229  
+        
+        
+''')
+    
+    
+@bot.message_handler(commands=['ralegacy'])
+def greet(message):
+    bot.reply_to(
+        message, '''
+    t.me/Redmi7AUpdates/163    
+        
+        
+''')
+    
+    
+@bot.message_handler(commands=['partition'])
+def greet(message):
+    bot.reply_to(
+        message, '''
+-->  VBmeta ->      /vbmeta
+-->  Cust   ->      /cust
+-->  Splash ->      /splash
+-->  Vendor ->      /base
+-->  System ->      /gsi
 
+        
+        
+''')
+   
+
+@bot.message_handler(commands=['cust'])
+def greet(message):
+    bot.reply_to(
+        message, '''
+  t.me/c/1501031540/3    
+        
+        
+''')
+
+
+
+    
+@bot.message_handler(commands=['vbmeta'])
+def greet(message):
+    bot.reply_to(
+        message, '''
+
+  /t.me/c/1501031540/2      
+        
+''')
+    
+    
+    
+    
 @bot.message_handler(commands=['silontkernel'])
 def chat(message):
     bot.reply_to(
@@ -235,7 +296,9 @@ Device:
 - Redmi 8A Pro/Dual (olivewood)
 - Redmi 7A (pine)
 Build date: 05/09/2021
-Download: www.pling.com/p/1589765/
+
+    Download: www.pling.com/p/1589765/
+
 Changelog:
 • Initial Release
 • Rebased over Joel A11/lineageos source
