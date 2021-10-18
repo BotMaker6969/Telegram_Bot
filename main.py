@@ -555,7 +555,7 @@ def greet(message):
         message, '''
 HavocOS V4.9 by @atharv2951
 
-Coming Soon!
+https://t.me/projectxtrmupdates/604
   ''')
 
 
