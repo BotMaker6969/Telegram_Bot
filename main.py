@@ -278,7 +278,7 @@ def greet(message):
     bot.reply_to(
         message, '''
 
-  /t.me/c/1501031540/2      
+  t.me/c/1501031540/2      
         
 ''')
     
