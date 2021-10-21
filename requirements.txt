@@ -11,9 +11,6 @@ scikit-image==0.17.2
 argparse==1.4.0
 imutils==0.5.3
 telethon==1.18.2
-aiohttp==3.7.2
-bleach==3.2.1
-emoji==0.6.0
 feedparser==6.0.2
 geopy==2.0.0
 googletrans==3.0.0
@@ -40,11 +37,6 @@ pyDownload==0.0.1.dev4
 telegraph==1.4.1
 cowpy==1.1.0
 psutil==5.7.3
-hachoir==3.1.1
-tswift==0.7.0
-pySmartDL==1.3.4
-pybase64==1.0.2
-selenium==3.141.0
 python-dotenv==0.15.0
 coffeehouse==2.2.4
 html2text==2020.1.16
@@ -57,13 +49,6 @@ dnspython==2.0.0
 gitpython==3.1.11
 bing_image_downloader==1.0.4
 alphabet_detector==0.0.7
-howdoi==2.0.14
 nudepy==0.5.1
 better_profanity==0.7.0
 validators==0.18.1
-youtube-search-python==1.4.0
-google-trans-new==1.1.9
-cloudmersive_virus_api_client==3.0.1
-dateparser==1.0.0
-cloudmersive-ocr-api-client==3.0.1
-
