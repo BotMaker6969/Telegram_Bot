@@ -1,9 +1,13 @@
+import telebot
 from sys import argv, exit
 from julia import tbot
-from julia import TOKEN
+
 
 # IDK WHY IT'S SO IMPORTANT, JUST DON'T REMOVE THIS
 import julia.events
+
+
+TOKEN = "2042205018:AAF7MN1zNTCmqpdMXY9t2tEpYNXHt0JoD3I"
 
 try:
     tbot.start(bot_token=TOKEN)
