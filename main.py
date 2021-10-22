@@ -22,7 +22,7 @@ def greet(message):
     bot.reply_to(
         message, ''' CAFExBABE Lineage 18.1
         
-        /t.me/c/1501031540/4
+        t.me/c/1501031540/4
         
         ''')
     
