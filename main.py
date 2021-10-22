@@ -17,7 +17,16 @@ Hello, I am a bot made by @heckerMassiah.
 For help do /help...
   ''')
 
-
+@bot.message_handler(commands=['lineage'])
+def greet(message):
+    bot.reply_to(
+        message, ''' CAFExBABE Lineage 18.1
+        
+        /t.me/c/1501031540/4
+        
+        ''')
+    
+    
 @bot.message_handler(commands=['gsi'])
 def greet(message):
     bot.reply_to(
@@ -35,11 +44,10 @@ GSI--
   ''')
 
 
-@bot.message_handler(commands=['a12_gsi'])
+@bot.message_handler(commands=['a12'])
 def help(message):
     bot.reply_to(message, '''
-wy??  
-    
+ t.me/hsxbuilds/659
     
     ''')
 
@@ -192,8 +200,16 @@ COMMANDS:-
 -> /guiderom
 -> /recoverypine
 -> /gsi_tutorial
+-> /a13-preview
 ''')
 
+ 
+@bot.message_handler(commands=['a13-preview'])
+def greet(message):
+    bot.reply_to(
+        message, ''' bit.ly/3C5uesj
+      Link Of preview
+      Its still not official....''')
 
 @bot.message_handler(commands=['dotos'])
 def greet(message):
@@ -630,9 +646,6 @@ Credit/Thanks :-
   ''')
 
 
-#All Roms End Here
-
-#Report, ban, kick try
 
 
 @bot.message_handler(commands=['hello69'])
@@ -668,7 +681,10 @@ def greet(message):
 :-- /ping
   ''')
 
-
+@bot.message_handler(commands=['bruh'])
+def greet(message):
+    bot.reply_to(
+        message, ''' hehe  ''')
 
 
 bot.polling()
