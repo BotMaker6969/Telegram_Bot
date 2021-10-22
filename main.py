@@ -27,7 +27,7 @@ hsx | prjkt° #2 ->  t.me/boottheming_sdm439/345
 android 12 inspired t.me/boottheming_sdm439/369
 Nusantara inspired  t.me/boottheming_sdm439/365
 CherishOS inspired  t.me/boottheming_sdm439/361
-')
+''')
 
 @bot.message_handler(commands=['lineage'])
 def greet(message):
