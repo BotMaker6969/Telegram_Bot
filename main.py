@@ -17,6 +17,16 @@ Hello, I am a bot made by @heckerMassiah.
 For help do /help...
   ''')
 
+@bot.message_handler(commands=['uwu'])
+def uwu(message):
+    bot.reply_to(
+        message, '''
+ROSES ARE RED
+VIOLETS ARE BLUU
+YOU ARE SO DUMB
+     UWU
+                    ''')
+    
 @bot.message_handler(commands=['splash'])
 def greet(message):
     bot.reply_to(
