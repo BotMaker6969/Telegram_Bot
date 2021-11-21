@@ -1,7 +1,7 @@
 import telebot
 
 
-bot = telebot.TeleBot("2042205018:AAF7MN1zNTCmqpdMXY9t2tEpYNXHt0JoD3I")
+bot = telebot.TeleBot("2108363994:AAGeihuvFJfErp69tHJpXd0TLG0puKe7Apc")
 
 
 @bot.message_handler(commands=['kickme'])
