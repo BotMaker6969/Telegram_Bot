@@ -78,7 +78,8 @@ def help(message):
 def greet(message):
     bot.reply_to(
         message, '''
-GSI for R7A - Nusantara--
+GSI for 
+- Nusantara--
     link -- bit.ly/3k0nNjO
     
 if don't know how to flash /gsi_tutorial
@@ -441,6 +442,7 @@ t.me/Redmi7AUpdates/186 --> V2.8
 t.me/Redmi7AUpdates/188 --> V2.9
 t.me/Redmi7AUpdates/198 --> V3.0 (Vanilla) 
 t.me/Redmi7AUpdates/199 --> V3.0 (Gapps)
+t.me/Redmi7AUpdates/254 --> V3.4 (Vanilla)
 t.me/Redmi7AUpdates/165 --> LTS 1.1 (Vanilla)
 { /gapps for gapps}
   
